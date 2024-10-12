@@ -1,11 +1,4 @@
 
-print("discord.gg/BxjqHMMsTb")
- ---------------------------------------------
-repeat task.wait() until game:IsLoaded()
-repeat task.wait() until game.Players
-repeat task.wait() until game.Players.LocalPlayer
-repeat task.wait() until game.Players.LocalPlayer:FindFirstChild("PlayerGui")
-repeat task.wait() until game.Players.LocalPlayer.PlayerGui:FindFirstChild("Main");
 --// Join Team
 if game:GetService("Players").LocalPlayer.PlayerGui.Main:FindFirstChild("ChooseTeam") then
     repeat task.wait()
